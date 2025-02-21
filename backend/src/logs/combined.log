@@ -1,0 +1,414 @@
+2025-02-20 22:08:57 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:08:57 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:08:57 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:08:57 info: Modelos sincronizados correctamente.
+2025-02-20 22:08:57 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:14:02 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:14:02 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:14:02 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:14:02 info: Executing (default): CREATE TABLE IF NOT EXISTS `juego` (`id` INTEGER auto_increment , `nombre` TEXT NOT NULL, `consola` TEXT NOT NULL, `imagen` TEXT NOT NULL, `year` INTEGER NOT NULL, `descripcion` TEXT NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB;
+2025-02-20 22:14:02 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:14:02 info: Modelos sincronizados correctamente.
+2025-02-20 22:14:02 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:14:29 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:14:29 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:14:29 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:14:29 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:14:29 info: Modelos sincronizados correctamente.
+2025-02-20 22:14:29 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:14:34 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:14:34 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:14:34 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:14:34 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:14:34 info: Modelos sincronizados correctamente.
+2025-02-20 22:14:34 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:14:46 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:14:46 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:14:46 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:14:46 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:14:46 info: Modelos sincronizados correctamente.
+2025-02-20 22:14:46 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:14:50 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:14:50 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:14:50 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:14:50 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:14:50 info: Modelos sincronizados correctamente.
+2025-02-20 22:14:50 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:14:51 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:14:51 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:14:51 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:14:51 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:14:51 info: Modelos sincronizados correctamente.
+2025-02-20 22:14:51 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:15:02 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:15:02 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:15:02 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:15:02 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:15:02 info: Modelos sincronizados correctamente.
+2025-02-20 22:15:02 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:15:11 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:15:11 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:15:11 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:15:11 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:15:11 info: Modelos sincronizados correctamente.
+2025-02-20 22:15:11 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:15:14 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:15:14 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:15:14 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:15:14 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:15:14 info: Modelos sincronizados correctamente.
+2025-02-20 22:15:14 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:15:19 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:15:19 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:15:19 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:15:19 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:15:19 info: Modelos sincronizados correctamente.
+2025-02-20 22:15:19 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:15:25 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:15:25 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:15:25 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:15:25 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:15:25 info: Modelos sincronizados correctamente.
+2025-02-20 22:15:25 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:15:27 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:15:27 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:15:27 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:15:27 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:15:27 info: Modelos sincronizados correctamente.
+2025-02-20 22:15:27 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:15:29 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:15:29 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:15:29 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:15:29 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:15:29 info: Modelos sincronizados correctamente.
+2025-02-20 22:15:29 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:15:41 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:15:41 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:15:41 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:15:41 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:15:41 info: Modelos sincronizados correctamente.
+2025-02-20 22:15:41 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:15:53 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:15:53 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:15:53 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:15:53 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:15:53 info: Modelos sincronizados correctamente.
+2025-02-20 22:15:53 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:15:58 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:15:58 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:15:58 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:15:58 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:15:58 info: Modelos sincronizados correctamente.
+2025-02-20 22:15:58 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:16:05 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:16:05 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:16:05 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:16:05 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:16:05 info: Modelos sincronizados correctamente.
+2025-02-20 22:16:05 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:16:07 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:16:07 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:16:07 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:16:07 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:16:07 info: Modelos sincronizados correctamente.
+2025-02-20 22:16:07 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:16:12 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:16:12 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:16:12 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:16:12 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:16:12 info: Modelos sincronizados correctamente.
+2025-02-20 22:16:12 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:16:18 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:16:18 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:16:18 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:16:18 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:16:18 info: Modelos sincronizados correctamente.
+2025-02-20 22:16:18 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:16:20 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:16:20 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:16:20 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:16:20 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:16:20 info: Modelos sincronizados correctamente.
+2025-02-20 22:16:20 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:16:22 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:16:22 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:16:22 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:16:22 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:16:22 info: Modelos sincronizados correctamente.
+2025-02-20 22:16:22 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:16:26 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:16:26 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:16:26 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:16:26 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:16:26 info: Modelos sincronizados correctamente.
+2025-02-20 22:16:26 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:16:27 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:16:27 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:16:27 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:16:27 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:16:27 info: Modelos sincronizados correctamente.
+2025-02-20 22:16:27 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:16:32 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:16:32 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:16:33 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:16:33 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:16:33 info: Modelos sincronizados correctamente.
+2025-02-20 22:16:33 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:16:38 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:16:38 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:16:38 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:16:38 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:16:38 info: Modelos sincronizados correctamente.
+2025-02-20 22:16:38 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:16:41 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:16:41 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:16:41 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:16:41 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:16:41 info: Modelos sincronizados correctamente.
+2025-02-20 22:16:41 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:16:46 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:16:46 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:16:46 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:16:46 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:16:46 info: Modelos sincronizados correctamente.
+2025-02-20 22:16:46 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:16:47 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:16:47 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:16:47 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:16:47 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:16:47 info: Modelos sincronizados correctamente.
+2025-02-20 22:16:47 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:16:56 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:16:56 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:16:56 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:16:56 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:16:56 info: Modelos sincronizados correctamente.
+2025-02-20 22:16:56 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:16:59 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:16:59 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:16:59 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:16:59 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:16:59 info: Modelos sincronizados correctamente.
+2025-02-20 22:16:59 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:17:11 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:17:11 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:17:11 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:17:11 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:17:11 info: Modelos sincronizados correctamente.
+2025-02-20 22:17:11 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:17:13 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:17:13 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:17:13 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:17:13 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:17:13 info: Modelos sincronizados correctamente.
+2025-02-20 22:17:13 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:17:16 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:17:16 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:17:16 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:17:16 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:17:16 info: Modelos sincronizados correctamente.
+2025-02-20 22:17:16 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:17:28 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:17:28 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:17:28 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:17:28 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:17:28 info: Modelos sincronizados correctamente.
+2025-02-20 22:17:28 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:17:31 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:17:31 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:17:31 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:17:31 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:17:31 info: Modelos sincronizados correctamente.
+2025-02-20 22:17:31 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:17:34 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:17:34 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:17:34 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:17:34 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:17:34 info: Modelos sincronizados correctamente.
+2025-02-20 22:17:34 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:17:37 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:17:37 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:17:37 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:17:37 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:17:37 info: Modelos sincronizados correctamente.
+2025-02-20 22:17:37 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:17:39 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:17:39 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:17:39 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:17:39 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:17:39 info: Modelos sincronizados correctamente.
+2025-02-20 22:17:40 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:17:43 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:17:43 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:17:43 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:17:43 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:17:43 info: Modelos sincronizados correctamente.
+2025-02-20 22:17:43 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:17:45 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:17:45 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:17:45 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:17:45 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:17:45 info: Modelos sincronizados correctamente.
+2025-02-20 22:17:45 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:17:53 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:17:53 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:17:53 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:17:53 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:17:53 info: Modelos sincronizados correctamente.
+2025-02-20 22:17:53 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:19:13 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:19:13 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:19:13 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:19:13 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:19:13 info: Modelos sincronizados correctamente.
+2025-02-20 22:19:13 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:21:20 info: Executing (default): INSERT INTO `juego` (`id`,`nombre`,`consola`,`imagen`,`year`,`descripcion`) VALUES (DEFAULT,?,?,?,?,?);
+2025-02-20 22:21:39 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:21:39 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:21:39 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:21:39 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:21:39 info: Modelos sincronizados correctamente.
+2025-02-20 22:21:39 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:21:57 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:21:57 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:21:57 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:21:57 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:21:57 info: Modelos sincronizados correctamente.
+2025-02-20 22:21:57 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:22:00 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:22:00 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:22:00 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:22:00 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:22:00 info: Modelos sincronizados correctamente.
+2025-02-20 22:22:00 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:22:03 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:22:03 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:22:03 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:22:03 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:22:03 info: Modelos sincronizados correctamente.
+2025-02-20 22:22:03 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:22:05 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:22:05 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:22:05 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:22:05 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:22:05 info: Modelos sincronizados correctamente.
+2025-02-20 22:22:05 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:22:07 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:22:07 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:22:07 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:22:07 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:22:07 info: Modelos sincronizados correctamente.
+2025-02-20 22:22:07 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:22:09 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:22:09 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:22:09 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:22:09 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:22:09 info: Modelos sincronizados correctamente.
+2025-02-20 22:22:09 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:22:15 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:22:15 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:22:15 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:22:15 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:22:15 info: Modelos sincronizados correctamente.
+2025-02-20 22:22:15 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:22:23 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:22:23 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:22:23 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:22:23 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:22:23 info: Modelos sincronizados correctamente.
+2025-02-20 22:22:23 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:22:26 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:22:26 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:22:26 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:22:26 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:22:26 info: Modelos sincronizados correctamente.
+2025-02-20 22:22:26 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:22:28 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:22:28 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:22:28 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:22:28 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:22:28 info: Modelos sincronizados correctamente.
+2025-02-20 22:22:28 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:22:40 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:22:40 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:22:40 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:22:40 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:22:40 info: Modelos sincronizados correctamente.
+2025-02-20 22:22:40 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:22:42 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:22:42 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:22:42 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:22:42 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:22:42 info: Modelos sincronizados correctamente.
+2025-02-20 22:22:42 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:22:44 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:22:44 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:22:44 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:22:44 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:22:44 info: Modelos sincronizados correctamente.
+2025-02-20 22:22:44 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:22:45 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:24:21 info: Executing (default): INSERT INTO `juego` (`id`,`nombre`,`consola`,`imagen`,`year`,`descripcion`) VALUES (DEFAULT,?,?,?,?,?);
+2025-02-20 22:24:24 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:30:59 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:30:59 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:31:13 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:31:13 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:31:18 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:31:18 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:31:20 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:31:20 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:31:22 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:31:22 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:31:23 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:31:23 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:31:26 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:31:26 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:31:27 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:31:27 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:32:01 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:32:01 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:32:16 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:32:16 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:32:25 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:32:25 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:32:56 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:32:56 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:35:15 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:35:15 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:37:14 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:37:16 info: Executing (default): INSERT INTO `juego` (`id`,`nombre`,`consola`,`imagen`,`year`,`descripcion`) VALUES (DEFAULT,?,?,?,?,?);
+2025-02-20 22:37:23 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:37:23 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:38:13 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:38:13 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:41:20 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:41:20 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:41:51 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:41:51 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:47:25 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:47:25 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:47:51 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:47:51 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:47:59 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:47:59 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:48:01 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:48:01 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:48:03 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:48:03 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:48:05 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:48:05 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:48:18 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:48:18 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:49:35 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:49:35 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:50:58 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:50:58 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:54:27 info: Executing (default): SELECT 1+1 AS result
+2025-02-20 22:54:27 info: Conexión a la base de datos establecida correctamente.
+2025-02-20 22:54:27 info: Executing (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'juego' AND TABLE_SCHEMA = 'juegos'
+2025-02-20 22:54:27 info: Executing (default): SHOW INDEX FROM `juego`
+2025-02-20 22:54:27 info: Modelos sincronizados correctamente.
+2025-02-20 22:54:27 info: Servidor escuchando en el puerto: 3000
+2025-02-20 22:54:32 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
+2025-02-20 22:54:32 info: Executing (default): SELECT `id`, `nombre`, `consola`, `imagen`, `year`, `descripcion` FROM `juego` AS `Juego`;
