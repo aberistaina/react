@@ -4,8 +4,8 @@ import logger from './src/utils/logger.js'
 
 
 //MODELS
-import "./src/models/Juego.models.js"
-const PORT = 3000;
+import "./src/models/Asociaciones.models.js"
+const PORT = 3001;
 
 const main = async () => {
     try {

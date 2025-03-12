@@ -1,7 +1,8 @@
 import express from "express"
 import cors from "cors"
 import juegosRoutes from "./routes/juegos.routes.js"
-
+import consolasRoutes from "./routes/consolas.routes.js"
+import categoriasRoutes from "./routes/categorias.routes.js"
 
 import * as path from "path";
 import { fileURLToPath } from "url";
@@ -22,3 +23,5 @@ app.use("/public", express.static(__dirname + "/public"));
 //Endpoints
 
 app.use("/api/v1/juegos", juegosRoutes)
+app.use("/api/v1/consolas", consolasRoutes)
+app.use("/api/v1/categorias", categoriasRoutes)

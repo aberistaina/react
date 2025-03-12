@@ -11,9 +11,13 @@ export const Juego = sequelize.define("Juego", {
         type: DataTypes.TEXT,
         allowNull: false
     },
-    consola: {
-        type: DataTypes.TEXT,
+    id_consola: {
+        type: DataTypes.INTEGER,
         allowNull: false
+    },
+    id_categoria: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
     },
     imagen: {
         type: DataTypes.TEXT,
