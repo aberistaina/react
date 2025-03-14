@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import { FaGamepad } from "react-icons/fa";
 
-export const InputConsolas = () => {
+export const InputConsolas = ({ consola, setJuegoForm}) => {
 
     const [consolas, setConsolas] = useState([])
+
+
 
     const getConsolas = async() =>{
         try {
@@ -14,6 +16,11 @@ export const InputConsolas = () => {
             console.log(error);
         }
     }
+
+    const handleChange = (e) => {
+        const { value } = e.target;
+        setJuegoForm((prevState) => ({...prevState, consola: value}));
+    };
 
 
     useEffect(() => {
@@ -28,6 +35,8 @@ export const InputConsolas = () => {
                     className="flex w-full px-4 py-2 border border-gray-400 rounded-lg shadow-sm focus:ring-indigo-300"
                     name="categoria"
                     id="categoria"
+                    value={consola}
+                    onChange={handleChange}
                 >
                     <option value="">Seleccione Una Consola</option>
                     {consolas.map((consola) => (
