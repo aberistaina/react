@@ -5,8 +5,7 @@ import { Formulario } from "./components/Formulario"
 export const RegisterPage = () => {
   return (
     <div className="w-full flex justify-center">
-        {/* <FormularioRegistro /> */}
-        <Formulario />
+        <FormularioRegistro />
     </div>
   )
 }

@@ -7,7 +7,7 @@ export const createUser = async(req, res) =>{
     try {
         const { nombre, apellido, email, telefono, rut, password} = req.body
 
-        validateUser({ nombre, email, telefono, rut, password})
+        validateUser({ nombre, apellido, email, telefono, rut, password})
         await userExist(rut, email, telefono)
 
         const hash = bcrypt.hashSync(password, 10)

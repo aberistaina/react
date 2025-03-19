@@ -1,7 +1,7 @@
 import { Usuario } from "../models/Usuario.model.js";
 import { isValidEmail, isValidRut, isValidName, isValidPassword } from "../utils/validators.js";
 
-export const validateUser = ({rut, nombre, email, password}) =>{
+export const validateUser = ({rut, nombre, apellido, email, password}) =>{
     if(!isValidRut(rut)){
         throw new Error("El rut es inválido")
     }
@@ -10,6 +10,9 @@ export const validateUser = ({rut, nombre, email, password}) =>{
     }
     if(!isValidName(nombre)){
         throw new Error("el nombre no cumple el formato")
+    }
+    if(!isValidName(apellido)){
+        throw new Error("el apelido no cumple el formato")
     }
     if(!isValidPassword(password)){
         throw new Error("La contraseña no cumple el formato válido")
