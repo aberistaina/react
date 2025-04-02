@@ -1,56 +1,52 @@
 import jwt from "jsonwebtoken"
 import bcrypt from "bcrypt"
-import { Player } from "../models/Player.model.js";
-import { Op } from "sequelize";
 import dotenv from "dotenv"
 import * as path from "path";
 import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 dotenv.config({path: path.resolve(__dirname, "../.env")});
+import { Usuario } from "../models/Usuario.model.js";
 
 let secret = process.env.SECRET
 
 export const emitirToken = async(req, res, next) =>{
     try {
-        let {email, password } = req.body
+        const {email, password } = req.body
 
-        let player = await Player.findOne({
-            attributes: ["id", "username", "email", "admin", "password", "validado"],
+        const usuario = await Usuario.findOne({
+            attributes: ["email", "id", "password", "admin", "validate"],
             where:{
-                [Op.or]: [
-                    { email },
-                    { username: email }
-                ]
+                email
             }
         })
 
-        
-        if (!player){
+        if (!usuario){
             return res.json({code:400, message: "email o Password Incorrecto",})
         }
 
-        let validacionPassword = await bcrypt.compare(password, player.password)
-        
+        let validacionPassword = await bcrypt.compare(password, usuario.password)
+
         
         if(!validacionPassword){
             return res.json({code:400, message: "email o Password Incorrecto",})
         }
 
-        if(!player.validado){
+        if(!usuario.toJSON().validate){
             return res.json({code:403, message: "Debes validar tu cuenta para iniciar sesión",})
         }
 
-        const { password: _, ...usuarioSinPassword } = player.toJSON();
+        const { password: _, ...usuarioSinPassword } = usuario.toJSON();
 
         let token = jwt.sign({
             data: usuarioSinPassword,
         },
         secret,
-        {expiresIn : "1h"}
+        {expiresIn : "30d"}
         )
 
+
         req.token = token
-        req.player = usuarioSinPassword
+        req.usuario = usuarioSinPassword
         next()
 
     } catch (error) {

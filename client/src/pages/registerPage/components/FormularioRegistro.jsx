@@ -52,8 +52,8 @@ export const FormularioRegistro = () => {
             const url = "http://localhost:3001/api/v1/auth";
             const method = "POST";
             const body = userForm;
-            const data = await fetchServices(url, method, body);
-            console.log(data);
+            const data = await fetchServices(url, method, null, body);
+
 
             if (data.code === 201) {
                 enqueueSnackbar(data.message, { variant: "success" });

@@ -1,8 +1,8 @@
 import { Usuario } from "../models/Usuario.model.js";
-import { isValidEmail, isValidRut, isValidName, isValidPassword } from "../utils/validators.js";
+import { isValidEmail, isValidName, isValidPassword, isValidRut } from "../utils/validators.js";
 
 export const validateUser = ({rut, nombre, apellido, email, password}) =>{
-    if(!isValidRut(rut)){
+   if(!isValidRut(rut)){
         throw new Error("El rut es inválido")
     }
     if(!isValidEmail(email)){
