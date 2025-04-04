@@ -2,9 +2,9 @@ import { useSearchParams, useParams } from "react-router-dom";
 import { useSnackbar } from "notistack"
 
 export const ValidateUser = () => {
-    const { email } = useParams();
     const [params] = useSearchParams();
     const token = params.get("token")
+    const email = params.get("email")
     const { enqueueSnackbar } = useSnackbar()
 
     const validarUsuario = async() =>{

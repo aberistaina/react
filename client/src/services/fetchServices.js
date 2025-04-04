@@ -4,6 +4,7 @@ export const fetchServices = async (url, method, token=null, body ) => {
         
         if(token){
             myHeaders.append("Authorization", `bearer ${token}`);
+            console.log(token);
             const requestOptions = {
                 method,
                 headers: myHeaders,
@@ -20,11 +21,8 @@ export const fetchServices = async (url, method, token=null, body ) => {
                 headers: myHeaders,
                 body: body ? JSON.stringify(body) : null
             };
-            console.log(url);
-            console.log(requestOptions);
 
             const response = await fetch(url, requestOptions)
-            console.log(response);
             const data = await response.json()
             return data
         }

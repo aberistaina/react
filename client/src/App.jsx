@@ -6,6 +6,9 @@ import { RegisterPage } from './pages/registerPage/RegisterPage'
 import { CrudPage } from './pages/crudPage/CrudPage'
 import { MicuentaPage } from './pages/miCuenta/MicuentaPage'
 import { ValidateUserPage } from './pages/validateUser/ValidateUserPage'
+import { RecuperarPasswordPage } from './pages/recuperarPassword/RecuperarPasswordPage'
+import { ModificarPasswordPage } from './pages/modificarPassword/ModificarPasswordPage'
+
 
 function App() {
 
@@ -18,7 +21,9 @@ function App() {
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/crud" element={<CrudPage />} />
                 <Route path="/micuenta" element={<MicuentaPage />}/>
-                <Route path="/validar-usuario/:email" element={<ValidateUserPage />}/>
+                <Route path="/validar-cuenta" element={<ValidateUserPage />}/>
+                <Route path="/recuperar-contraseña" element={<RecuperarPasswordPage />} />
+                <Route path="/modificar-password" element={<ModificarPasswordPage />} />
             </Routes>
         </BrowserRouter>
     )

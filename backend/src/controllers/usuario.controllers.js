@@ -1,4 +1,6 @@
 import { Usuario } from "../models/Usuario.model.js"
+import { enviarCorreo } from "../utils/emails.js"
+import bcrypt from "bcrypt"
 
 
 export const getUsuarioById = async(req, res) =>{
@@ -42,13 +44,14 @@ export const validarUsuario = async(req, res) =>{
     try {
         const { email } = req.params
 
+
         const usuario = await Usuario.findOne({
             raw: true,
             where:{
                 email
             }
         })
-        console.log(usuario);
+
         if(!usuario){
             return res.status(400).json({
                 code: 400,
@@ -68,6 +71,7 @@ export const validarUsuario = async(req, res) =>{
             { validate: true },
             { where: { email } }
         );
+
         
         res.status(200).json({
             code: 200,
@@ -82,3 +86,43 @@ export const validarUsuario = async(req, res) =>{
         })
     }
 }
+
+export const recuperarContraseña = async(req, res) =>{
+    try {
+
+        const { email } = req.params
+        const { contraseña } = req.body
+
+        const usuario = Usuario.findOne({
+            where:{
+                email
+            }
+        })
+
+        if(!usuario){
+            return res.status(400).json({
+                code:400, 
+                message: "El usuario no existe en la base de datos"
+            })
+        }
+
+        const hash = bcrypt.hashSync(contraseña, 10)
+
+        await Usuario.update(
+            { password: hash },
+            { where: { email } }
+        );
+
+        res.status(200).json({
+            code:200, 
+            message: "Contraseña modificada con éxito"
+        })
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({
+            code:500, 
+            message: "Hubo un error interno en el servidor"
+        })
+    }
+}
+
